@@ -1,0 +1,40 @@
+27-Nov-19 14:06:07
+Traceback (most recent call last):
+  File ".\S5_2_5_4_FRT_fault.py", line 83, in RunDynamics
+    raise
+TypeError: exceptions must be old-style classes or derived from BaseException, not NoneType
+
+
+
+27-Nov-19 14:06:43
+Traceback (most recent call last):
+  File ".\S5_2_5_4_FRT_fault.py", line 83, in RunDynamics
+    raise
+TypeError: exceptions must be old-style classes or derived from BaseException, not NoneType
+
+
+
+27-Nov-19 16:53:44
+Traceback (most recent call last):
+  File "D:\Google Drive\5_MaoNeng\6. plb\S5_2_5_4_FRT_fault.py", line 240, in RunDynamics_FAULT
+    z_fault = complex(z_sys[0], z_sys[1])
+NameError: global name 'z_sys' is not defined
+
+
+
+27-Nov-19 16:54:56
+Traceback (most recent call last):
+  File "D:\Google Drive\5_MaoNeng\6. plb\S5_2_5_4_FRT_fault.py", line 240, in RunDynamics_FAULT
+    z_fault = complex(z_sys[0], z_sys[1])
+NameError: global name 'z_sys' is not defined
+
+
+
+27-Nov-19 17:00:55
+Traceback (most recent call last):
+  File "D:\Google Drive\5_MaoNeng\6. plb\S5_2_5_4_FRT_fault.py", line 362, in RunDynamics_FAULT
+    psspy.run(0, RUN_Time+DisDur_Time,5,1,0)
+TypeError: unsupported operand type(s) for +: 'int' and 'list'
+
+
+

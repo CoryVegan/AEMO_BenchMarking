@@ -1,0 +1,16 @@
+27-Nov-19 14:06:07
+Traceback (most recent call last):
+  File ".\S5_2_5_4_FRT_fault.py", line 83, in RunDynamics
+    raise
+TypeError: exceptions must be old-style classes or derived from BaseException, not NoneType
+
+
+
+27-Nov-19 14:06:43
+Traceback (most recent call last):
+  File ".\S5_2_5_4_FRT_fault.py", line 83, in RunDynamics
+    raise
+TypeError: exceptions must be old-style classes or derived from BaseException, not NoneType
+
+
+
